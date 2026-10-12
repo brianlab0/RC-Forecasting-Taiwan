@@ -1,0 +1,3 @@
+benchmark,period,n_months,average_monthly_return_pct,nw_t_stat,annualized_sharpe,monthly_sd_pct,average_monthly_risk_free_pct
+TAIEX Total Return Index (same return basis as the portfolios; used in all tables),2012/01-2024/12,156,1.1471,3.635,0.9118,4.1237,0.0616
+TAIEX price index (supplementary; excludes dividends),2012/01-2024/12,156,0.8447,2.5924,0.6569,4.1286,0.0616
