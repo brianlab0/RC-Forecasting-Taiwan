@@ -146,13 +146,3 @@ r_{i,t} = \prod_{d \in t} \left(1 + r_{i,d}\right) - 1
 | 還原報酬稽核 | audit/audit_corporate_action_days_summary.csv、audit/audit_adjusted_return_check_vs_yahoo.csv |
 | 超參數稽核 | audit/audit_validation_grid_*.csv |
 | 程式 | code/(run_all.sh 為執行順序) |
-
-## 七、如何重跑
-
-```bash
-pip install -r code/requirements.txt
-bash code/run_all.sh
-```
-
-- `00` 開頭的步驟需要網路,完整下載約需 6.5 小時(FinMind 免費額度每小時約 300 次),可中斷續傳。其餘步驟離線執行、結果固定,約 15 分鐘。
-- 原始資料不放在本 repo。`data/raw_size.xlsx`(631 檔上市股的月底市值)需自行放入。
